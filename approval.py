@@ -2,11 +2,6 @@
 import hashlib, hmac, os, time
 
 _SECRET = os.getenv("APPROVAL_SIGNING_SECRET", "local-demo-only-change-this-secret").encode()
-_SECRET = os.getenv(
-    "APPROVAL_SIGNING_SECRET",
-    "local-demo-only-change-this-secret",
-).encode()
-
 print(
     "APPROVAL_SECRET_CONFIGURED:",
     bool(os.getenv("APPROVAL_SIGNING_SECRET")),
