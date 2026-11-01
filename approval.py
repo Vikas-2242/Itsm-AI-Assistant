@@ -13,7 +13,6 @@ print(
 )
 
 TTL_SECONDS = 300 # changes
-TTL_SECONDS = 300
 
 
 def issue_token(incident_id: str, operation: str, value: str) -> str:
