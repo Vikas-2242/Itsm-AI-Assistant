@@ -1,0 +1,32 @@
+[
+  {
+    "known_error_id": "KE0042",
+    "title": "Payment API HTTP 503 during payment processing",
+    "application": "Payment Gateway",
+    "symptoms": "HTTP 503 during payment processing; intermittent payment request failures.",
+    "root_cause": "Database connection pool exhaustion",
+    "workaround": "Restart the affected service instance after confirming operational safety.",
+    "resolution": "Review and correct connection-pool configuration.",
+    "status": "Active"
+  },
+  {
+    "known_error_id": "KE0018",
+    "title": "Customer portal login request timeout",
+    "application": "Customer Portal",
+    "symptoms": "Login requests time out intermittently after credentials are submitted.",
+    "root_cause": "Authentication service latency or saturated request workers",
+    "workaround": "Check authentication service health and recent latency metrics.",
+    "resolution": "Investigate authentication dependency latency and tune worker capacity if evidence supports it.",
+    "status": "Active"
+  },
+  {
+    "known_error_id": "KE0091",
+    "title": "Storage service unavailable during file upload",
+    "application": "File Service",
+    "symptoms": "Uploads fail and storage is reported unavailable.",
+    "root_cause": "Storage endpoint connectivity or service availability issue",
+    "workaround": "Verify storage endpoint health and connectivity.",
+    "resolution": "Restore storage connectivity and validate service health.",
+    "status": "Active"
+  }
+]

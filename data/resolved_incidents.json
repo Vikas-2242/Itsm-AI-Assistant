@@ -1,0 +1,26 @@
+[
+  {
+    "incident_id": "RINC00087",
+    "title": "Intermittent payment failures with HTTP 503",
+    "application": "Payment Gateway",
+    "symptoms": "Payment API returned 503 during peak traffic.",
+    "resolution": "Connection-pool settings were reviewed and adjusted after confirming pool exhaustion.",
+    "status": "Resolved"
+  },
+  {
+    "incident_id": "RINC00054",
+    "title": "Customer portal authentication timeout",
+    "application": "Customer Portal",
+    "symptoms": "Login endpoint timed out for a subset of users.",
+    "resolution": "Authentication service latency was identified from metrics and corrected.",
+    "status": "Resolved"
+  },
+  {
+    "incident_id": "RINC00102",
+    "title": "Storage endpoint unavailable for uploads",
+    "application": "File Service",
+    "symptoms": "File upload calls failed when the storage endpoint was unreachable.",
+    "resolution": "Connectivity was restored and the endpoint health check passed.",
+    "status": "Resolved"
+  }
+]

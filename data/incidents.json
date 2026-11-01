@@ -1,0 +1,32 @@
+[
+  {
+    "incident_id": "INC001245",
+    "application": "Payment Gateway",
+    "category": "Application",
+    "priority": "P2",
+    "short_description": "Payment API returning HTTP 503",
+    "description": "Payment requests intermittently fail with HTTP 503.",
+    "status": "Open",
+    "work_notes": []
+  },
+  {
+    "incident_id": "INC001246",
+    "application": "Customer Portal",
+    "category": "Application",
+    "priority": "P3",
+    "short_description": "Customer portal login intermittently times out",
+    "description": "Some users experience login timeouts after submitting credentials.",
+    "status": "Open",
+    "work_notes": []
+  },
+  {
+    "incident_id": "INC001247",
+    "application": "File Service",
+    "category": "Infrastructure",
+    "priority": "P2",
+    "short_description": "File uploads fail with storage unavailable error",
+    "description": "Uploads fail intermittently and report that storage is unavailable.",
+    "status": "Resolved",
+    "work_notes": []
+  }
+]
